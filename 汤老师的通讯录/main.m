@@ -15,6 +15,7 @@ int main(int argc, const char * argv[]) {
     // 查找联系人
     // 显示所有联系人
     // 退出
+    // 测试
     @autoreleasepool {
         TangMenu *menu=[[TangMenu alloc]init]; //创建菜单对象
         while (1) {
