@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F62318D22C1A50E00D533B1 /* TangPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F62318C22C1A50E00D533B1 /* TangPerson.m */; };
 		3FFE91CD22C04EC30056D486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE91CC22C04EC30056D486 /* main.m */; };
 		3FFE91D922C0550A0056D486 /* TangMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE91D822C0550A0056D486 /* TangMenu.m */; };
 		3FFE91DC22C055B60056D486 /* TangTelbook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE91DB22C055B60056D486 /* TangTelbook.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F62318B22C1A50E00D533B1 /* TangPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TangPerson.h; sourceTree = "<group>"; };
+		3F62318C22C1A50E00D533B1 /* TangPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TangPerson.m; sourceTree = "<group>"; };
 		3FFE91C922C04EC30056D486 /* 汤老师的通讯录 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "汤老师的通讯录"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFE91CC22C04EC30056D486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FFE91D722C0550A0056D486 /* TangMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TangMenu.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				3FFE91D822C0550A0056D486 /* TangMenu.m */,
 				3FFE91DA22C055B60056D486 /* TangTelbook.h */,
 				3FFE91DB22C055B60056D486 /* TangTelbook.m */,
+				3F62318B22C1A50E00D533B1 /* TangPerson.h */,
+				3F62318C22C1A50E00D533B1 /* TangPerson.m */,
 			);
 			path = "汤老师的通讯录";
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F62318D22C1A50E00D533B1 /* TangPerson.m in Sources */,
 				3FFE91DC22C055B60056D486 /* TangTelbook.m in Sources */,
 				3FFE91D922C0550A0056D486 /* TangMenu.m in Sources */,
 				3FFE91CD22C04EC30056D486 /* main.m in Sources */,
