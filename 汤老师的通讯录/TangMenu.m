@@ -28,6 +28,7 @@
     }
 }
 
+
 - (BOOL)input{
     char ch[2];
     printf("请选择：(1-6):");

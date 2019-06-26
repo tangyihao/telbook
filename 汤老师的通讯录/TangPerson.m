@@ -7,7 +7,6 @@
 //
 
 #import "TangPerson.h"
-
 @implementation TangPerson
 @synthesize name,tel;
 
@@ -17,7 +16,6 @@
     [aCoder encodeObject:name forKey:@"NAME"];
     [aCoder encodeObject:tel forKey:@"TEL"];
 }
-
 //解码
 - (instancetype)initWithCoder:(NSCoder *)aDeoder
 {
