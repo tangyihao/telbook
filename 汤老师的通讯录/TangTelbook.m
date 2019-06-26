@@ -103,4 +103,20 @@
     [NSKeyedArchiver archiveRootObject:self.persons toFile:@"persons.data"];
     return YES;
 }
+
+- (BOOL)find{
+    //先得到你想查找的内容
+    printf("请输入你想查找的姓名和电话：");
+    char ch[20];
+    scanf("%s",ch);
+    ch[19] = '\0';
+    NSString *str = [NSString stringWithUTF8String:ch];
+    //到内存中查找
+    BOOL bz=NO;
+    for (TangPerson *p in self.persons) {
+        printf("%s\t%s\t\n",[p.name UTF8String],[p.tel UTF8String]);
+        bz = YES;
+    }
+    return bz;
+}
 @end
